@@ -516,8 +516,13 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 22px;
 }
 
+#hero h3 {
+  font-family: "Poppins", sans-serif;
+}
+
 #hero h3 span {
   color: #cda45e;
+  font-family: "Poppins", sans-serif;
 }
 
 #hero .btns {
