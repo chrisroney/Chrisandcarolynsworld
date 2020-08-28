@@ -475,6 +475,7 @@ h1, h2, h3, h4, h5, h6 {
   background-size: cover;
   position: relative;
   padding: 0;
+  text-align: center;
 }
 
 #hero:before {
@@ -495,9 +496,6 @@ h1, h2, h3, h4, h5, h6 {
   #hero .container {
     padding-top: 98px;
   }
-}
-#hero {
-  text-align: center;
 }
 
 #hero h1 {
