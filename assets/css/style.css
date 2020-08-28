@@ -1964,3 +1964,13 @@ button:hover{
   }
 }
 
+#about button {
+  background-color: #cda45e;
+  color: white;
+}
+
+#about button:hover{
+  background-color: white;
+  color: #cda45e;
+}
+
