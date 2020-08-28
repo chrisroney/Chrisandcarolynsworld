@@ -1855,23 +1855,6 @@ button:hover{
   color: peru;
 }
 
-.contact-us .php-email-form {
-  width: 100%;
-  background: black;
-}
-
-.contact-us .php-email-form .form-group {
-  padding-bottom: 8px;
-}
-
-.contact-us .php-email-form .validate {
-  display: none;
-  color: red;
-  margin: 0 0 15px 0;
-  font-weight: 400;
-  font-size: 13px;
-}
-
 .contact-us .php-email-form .error-message {
   display: none;
   color: #fff;
@@ -1914,41 +1897,6 @@ button:hover{
   animation: animate-loading 1s linear infinite;
 }
 
-.contact-us .php-email-form input, .contact-us .php-email-form textarea {
-  box-shadow: none;
-  font-size: 14px;
-  border-radius: 4px;
-  background-color:  #cda45e;
-}
-
-.contact-us .php-email-form input:focus, .contact-us .php-email-form textarea:focus {
-  border-color: #006fbe;
-  background-color:  #cda45e;
-}
-
-.contact-us .php-email-form input {
-  height: 44px;
-  background-color:  #cda45e;
-}
-
-.contact-us .php-email-form textarea {
-  padding: 10px 12px;
-  background-color:  #cda45e;
-}
-
-.contact-us .php-email-form button[type="submit"] {
-  background: peru;
-  border: 0;
-  padding: 10px 30px;
-  color: #fff;
-  transition: 0.4s;
-  border-radius: 4px;
-}
-
-.contact-us .php-email-form button[type="submit"]:hover {
-  background:  #cda45e;
-}
-
 @-webkit-keyframes animate-loading {
   0% {
     transform: rotate(0deg);
@@ -1969,5 +1917,42 @@ button:hover{
 
 #about button {
   background-color: white;
+}
+
+form {
+  margin-top: 50px;
+  transition: all 4s ease-in-out;
+}
+
+.form-control {
+  width: 600px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid gray;
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+input {
+  height: 45px;
+}
+
+form .submit {
+  background: #cda45e;
+  border-color: transparent;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  height: 50px;
+  margin-top: 20px;
+}
+
+form .submit:hover {
+  background-color: #fff;
+  color: #cda45e;
+  cursor: pointer;
 }
 
