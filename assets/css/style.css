@@ -518,11 +518,13 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero h3 {
   font-family: "Poppins", sans-serif;
+  font-weight: 700;
 }
 
 #hero h3 span {
   color: #cda45e;
   font-family: "Poppins", sans-serif;
+  font-weight: 700;
 }
 
 #hero .btns {
