@@ -1956,3 +1956,9 @@ form .submit:hover {
   cursor: pointer;
 }
 
+h3 span {
+  color: #cda45e;
+  font-family: "Poppins", sans-serif;
+  text-weight: 700;
+}
+
