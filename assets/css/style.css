@@ -1962,3 +1962,8 @@ h3 span {
   text-weight: 700;
 }
 
+@media only screen and (max-width: 600px) {
+  button{
+    width:200px;
+  }
+}
