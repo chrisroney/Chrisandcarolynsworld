@@ -201,13 +201,16 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-menu > ul {
   display: flex;
-  align-items: center;
 }
 
 .nav-menu > ul > li {
   position: relative;
   white-space: nowrap;
   padding-left: 28px;
+}
+
+.nav-menu > ul > li > a > #specials, #gallery, #ContactUs {
+  align-items: left;
 }
 
 .nav-menu a {
