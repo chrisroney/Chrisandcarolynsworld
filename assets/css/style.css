@@ -209,10 +209,6 @@ h1, h2, h3, h4, h5, h6 {
   padding-left: 28px;
 }
 
-.nav-menu > ul > li > a > #specials, #gallery, #ContactUs {
-  align-items: left;
-}
-
 .nav-menu a {
   display: block;
   position: relative;
