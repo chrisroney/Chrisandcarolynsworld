@@ -710,6 +710,9 @@ document.oncontextmenu=new Function("alert(message);return false")
 <script language=Swift>
 	
 	yourWebView.allowsLinkPreview = false
+	
+	optional func webView(_ webView: WKWebView, 
+ shouldPreviewElement elementInfo: WKPreviewElementInfo) -> Bool
 
 </script>
 
