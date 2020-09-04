@@ -1964,3 +1964,7 @@ h3 span {
     width:200px;
   }
 }
+
+img {
+  pointer-events: none;
+}
